@@ -1,0 +1,98 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+
+}
+
+.container{
+     height: 100vh;
+     width: 100vw;
+
+}
+
+table {
+     margin-left: 2rem;
+     /* margin-top: 3rem; */
+
+} table {
+     border-collapse: collapse;
+     width: 80%;
+ }
+
+ th, td {
+     font-size: 25px;
+     border: 2px solid #827e7e;
+     text-align: left;
+     padding: 8px;
+ }
+ input{
+     margin-top: 2rem;
+     margin-left: 3rem;
+     margin-bottom: 0.5rem;
+     border-radius: 1.5rem;
+     height: 80px;
+     width:30%;
+     font-size: 25px;
+ }
+input::placeholder{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+ tr:nth-child(even) {
+     background-color: #f2f2f2;
+ }
+
+ .pagination {
+     display: flex;
+     justify-content: center;
+     padding: 10px 40px;
+     border-radius: 6px;
+     /* margin-top: 20px; */
+ }
+ ul{
+     margin: 20px 30px;
+ }
+ ul li{
+     display: inline-block;
+     margin: 0px 10px;
+     background-color: #ccc;
+     width: 45px;
+     height: 45px;
+     border-radius: 50%;
+     text-align: center;
+     font-size: 22px;
+     font-weight: 500;
+     line-height: 45px;
+     cursor: pointer;
+ }
+ul li.active{
+    color: #fff;
+    background-image: linear-gradient(#ff4568 , #ff4568);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+ .pagination button {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+
+ }
+
+ .pagination button.active {
+     background-color: #45a049;
+ }td{
+
+     font-size: 30px;
+}
+
+
